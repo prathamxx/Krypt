@@ -1,0 +1,48 @@
+nav{
+    background-color: rgb(34, 34, 34) !important;
+}
+.header {
+    background: #efefef; 
+    clear: both;
+    height: 75px;
+}
+.Logo {
+    
+    float:left;
+    margin:0;
+    margin-left: 10px;
+    margin-top:5px;
+}
+
+ul{
+    overflow: hidden;
+}
+li{
+    display: block;
+    float: right;
+    display: inline;
+    color: white;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(70, 131, 255);
+    
+}
+
+links{
+    margin-right: 30px;
+}
+
+/* @media screen  and( max-width:770px){
+    .links ul {display: none;}
+} */
